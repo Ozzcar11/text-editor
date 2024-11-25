@@ -1,0 +1,11 @@
+@use "./mixins/sizings" as *;
+
+h1 {
+  @include text-lg();
+}
+
+p {
+  @include text-base();
+
+  margin: 20px 0;
+}

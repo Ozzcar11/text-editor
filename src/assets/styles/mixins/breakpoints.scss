@@ -1,0 +1,11 @@
+@mixin screen-tablet {
+  @media (max-width: 1280px) {
+    @content;
+  }
+}
+
+@mixin screen-desktop-base {
+  @media (max-width: 1920px) {
+    @content;
+  }
+}
