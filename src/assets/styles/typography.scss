@@ -2,6 +2,8 @@
 
 h1 {
   @include text-lg();
+
+  margin: 20px 0;
 }
 
 p {
